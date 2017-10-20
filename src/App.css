@@ -1,0 +1,55 @@
+body{
+  line-height: 1.5;
+  color: #151b1e;
+  background-color: #e4e5e6;
+}
+
+.card-group {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 0!important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #c2cfd6;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.bg-primary {
+  border-color: #187da0 ;   
+  background-color: #20a8d8;
+  color: #fff;
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+  margin-bottom: 1.5rem;
+}
+
+/* boton register */
+.btn-primary {
+    background-color: #1b8eb7 ;
+    background-image: none;
+    border-color: #1985ac ;
+}
+
+.mt-3 {
+    margin-top: 1rem!important;
+}
