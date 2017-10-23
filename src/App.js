@@ -24,7 +24,7 @@ class Log extends Component {
         <FormGroup>
           <Row>
             <Col md={6} sm={6}>
-              <Button type="submit" className="btn-primary">
+              <Button type="submit" className="btn-primarys">
                 Log in
           </Button>
             </Col>
