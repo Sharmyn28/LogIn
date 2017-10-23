@@ -7,8 +7,8 @@ body{
 .card-group {
   display: flex;
   flex-flow: row wrap;
-  margin-bottom: 0!important;
   margin-top: 150px;
+  width: 60%;
 }
 
 .card {
@@ -20,12 +20,9 @@ body{
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid #c2cfd6;
+  height: 300px;
 }
 
-.card {
-    margin-bottom: 1.5rem;
-    
-}
 .card-body {
     flex: 1 1 auto;
     padding: 1.25rem;
@@ -54,4 +51,9 @@ p {
 
 .mt-3 {
     margin-top: 1rem!important;
+}
+
+.card-register,
+.form-card {
+    margin: 10px 30px;
 }

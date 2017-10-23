@@ -24,12 +24,12 @@ class Log extends Component {
         <FormGroup>
           <Row>
             <Col md={6} sm={6}>
-              <Button type="submit">
+              <Button type="submit" className="btn-primary">
                 Log in
           </Button>
             </Col>
             <Col md={6} sm={6}>
-              <p>Forget password?</p>
+              <a>Forget password?</a>
             </Col>
           </Row>
         </FormGroup>
@@ -60,10 +60,14 @@ class LogIn extends Component {
       <Grid className='card-group'>
         <Row >
           <Col md={6} sm={12} className='card'>
-            <Log />
+            <Col className="form-card">
+              <Log />
+            </Col>
           </Col>
           <Col className='card bg-primary' smHidden xsHidden>
-            <Register />
+            <Col className="card-register">
+              <Register />
+            </Col>
           </Col>
         </Row>
       </Grid>
